@@ -1,0 +1,22 @@
+# spring datasource config
+spring:
+  datasource:
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    url: jdbc:oracle:thin:@localhost:1521:xe
+    username: C##OHGIRAFFERS
+    password: OHGIRAFFERS
+
+# mybatis config
+mybatis:
+  mapper-locations: mappers/**/*.xml
+
+# logging config
+#logging:
+#  level:
+#    root: debug
+
+#logging:
+#  file:
+#    name: myappp.log
+#    path: C:\lecture\10_spring\spring-lecture-source-master\02_spring-web-mvc\chap09-crud
+
